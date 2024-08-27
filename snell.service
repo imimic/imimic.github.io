@@ -1,6 +1,7 @@
 [Unit]
 Description=Snell Proxy Service
 After=network.target
+Wants=network-online.target systemd-networkd-wait-online.service
 
 [Service]
 Type=simple
