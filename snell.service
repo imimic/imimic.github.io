@@ -4,9 +4,10 @@ After=network.target
 
 [Service]
 Type=simple
-User=nobody
-Group=nogroup
-LimitNOFILE=32768
+User=root
+Restart=on-failure
+RestartSec=10s
+LimitNOFILE=infinity
 ExecStart=/usr/local/bin/snell-server -c /etc/snell-server.conf
 
 [Install]
