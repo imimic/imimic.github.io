@@ -1,0 +1,16 @@
+[Unit]
+Description=Apply custom routing rules for WARP interface
+After=network-online.target sing-box.service
+Wants=network-online.target sing-box.service
+
+[Service]
+Type=oneshot
+ExecStartPre=/bin/sleep 5
+ExecStart=/sbin/ip rule add from 172.16.0.2 table warp
+ExecStart=/sbin/ip route add default dev warp table warp
+ExecStop=/sbin/ip rule del from 172.16.0.2 table warp
+ExecStop=/sbin/ip route del default dev warp table warp
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
