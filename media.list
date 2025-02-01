@@ -61,6 +61,8 @@ DOMAIN-SUFFIX,dcblivedazn.akamaized.net
 # > Hotstar
 DOMAIN-SUFFIX,hotstar.com
 DOMAIN-SUFFIX,hotstarext.com
+# > HOY TV
+DOMAIN-SUFFIX,hoy.tv
 # > MyTVSuper
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
