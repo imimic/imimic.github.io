@@ -25,8 +25,12 @@ DOMAIN-SUFFIX,hbonow.com
 DOMAIN-SUFFIX,maxgo.com
 DOMAIN-SUFFIX,discomax.com
 # > Amazon Prime Video:
+DOMAIN-SUFFIX,d1v5ir2lpwr8os.cloudfront.net
+DOMAIN-SUFFIX,d22qjgkvxw22r6.cloudfront.net
+DOMAIN-SUFFIX,d25xi40x97liuc.cloudfront.net
+DOMAIN-SUFFIX,d27xxe7juh1us6.cloudfront.net
+DOMAIN-SUFFIX,dmqdd6hw24ucf.cloudfront.net
 DOMAIN-SUFFIX,akamaihd.net
-DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,fastly-edge.com
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
