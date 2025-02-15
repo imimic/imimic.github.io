@@ -25,26 +25,20 @@ DOMAIN-SUFFIX,hbonow.com
 DOMAIN-SUFFIX,maxgo.com
 DOMAIN-SUFFIX,discomax.com
 # > Amazon Prime Video:
-DOMAIN-SUFFIX,d1v5ir2lpwr8os.cloudfront.net
-DOMAIN-SUFFIX,d22qjgkvxw22r6.cloudfront.net
-DOMAIN-SUFFIX,d25xi40x97liuc.cloudfront.net
-DOMAIN-SUFFIX,d27xxe7juh1us6.cloudfront.net
-DOMAIN-SUFFIX,dmqdd6hw24ucf.cloudfront.net
+DOMAIN-SUFFIX,pv-cdn.net
+DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,akamaihd.net
 DOMAIN-SUFFIX,fastly-edge.com
-DOMAIN-SUFFIX,aiv-cdn.net
-DOMAIN-SUFFIX,aiv-delivery.net
+DOMAIN-SUFFIX,amazonprimevideos.com
+DOMAIN-SUFFIX,amazonvideo.cc
 DOMAIN-SUFFIX,amazonvideo.com
-DOMAIN-SUFFIX,atv-ext-eu.amazon.com
-DOMAIN-SUFFIX,atv-ext-fe.amazon.com
-DOMAIN-SUFFIX,atv-ext.amazon.com
-DOMAIN-SUFFIX,atv-ps-eu.amazon.co.uk
-DOMAIN-SUFFIX,atv-ps-eu.amazon.com
-DOMAIN-SUFFIX,atv-ps-fe.amazon.co.jp
-DOMAIN-SUFFIX,atv-ps-fe.amazon.com
-DOMAIN-SUFFIX,atv-ps.amazon.com
+DOMAIN-SUFFIX,prime-video.com
+DOMAIN-SUFFIX,primevideo.cc
 DOMAIN-SUFFIX,primevideo.com
-DOMAIN-SUFFIX,pv-cdn.net
-DOMAIN-SUFFIX,video.a2z.com
+DOMAIN-SUFFIX,primevideo.info
+DOMAIN-SUFFIX,primevideo.org
+DOMAIN-SUFFIX,primevideo.tv
+DOMAIN-SUFFIX,amazonprimevideo.cn
+DOMAIN-SUFFIX,amazonprimevideo.com.cn
 # > Plex
 DOMAIN-SUFFIX,plex.tv
