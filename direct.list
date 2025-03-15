@@ -1,0 +1,11 @@
+# > Direct
+DEST-PORT,22
+DEST-PORT,5201
+DOMAIN,v4.plex.tv
+DOMAIN,pubsub.plex.tv
+DOMAIN,account.synology.com
+DOMAIN,checkip.synology.com
+DOMAIN-SUFFIX,myip.ipip.net
+DOMAIN-SUFFIX,istatmenus.app
+DOMAIN-SUFFIX,quickconnect.to
+DOMAIN-SUFFIX,quickconnect.cn
