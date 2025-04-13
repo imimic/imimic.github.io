@@ -5,6 +5,7 @@ DOMAIN,v4.plex.tv
 DOMAIN,pubsub.plex.tv
 DOMAIN,account.synology.com
 DOMAIN,checkip.synology.com
+DOMAIN-SUFFIX,meituan.net
 DOMAIN-SUFFIX,myip.ipip.net
 DOMAIN-SUFFIX,istatmenus.app
 DOMAIN-SUFFIX,quickconnect.to
