@@ -25,10 +25,7 @@ DOMAIN-SUFFIX,hbonow.com
 DOMAIN-SUFFIX,maxgo.com
 DOMAIN-SUFFIX,discomax.com
 # > Amazon Prime Video:
-DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-SUFFIX,aiv-cdn.net
-DOMAIN-SUFFIX,akamaihd.net
-DOMAIN-SUFFIX,fastly-edge.com
 DOMAIN-SUFFIX,amazonprimevideos.com
 DOMAIN-SUFFIX,amazonvideo.cc
 DOMAIN-SUFFIX,amazonvideo.com
