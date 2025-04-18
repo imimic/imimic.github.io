@@ -7,7 +7,3 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,turn.livekit.cloud
-
-# > Reddit
-DOMAIN-SUFFIX,redd.it
-DOMAIN-SUFFIX,reddit.com
