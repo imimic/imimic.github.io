@@ -38,7 +38,5 @@ DOMAIN-SUFFIX,primevideo.org
 DOMAIN-SUFFIX,primevideo.tv
 DOMAIN-SUFFIX,amazonprimevideo.cn
 DOMAIN-SUFFIX,amazonprimevideo.com.cn
-# > Others
+# > Plex
 DOMAIN-SUFFIX,plex.tv
-DOMAIN-SUFFIX,redd.it
-DOMAIN-SUFFIX,reddit.com
