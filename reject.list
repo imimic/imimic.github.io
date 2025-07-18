@@ -2,8 +2,3 @@
 IP-CIDR,95.161.76.100/31
 DOMAIN-KEYWORD,96110
 DOMAIN-SUFFIX,gjfzpt.cn
-DOMAIN,al-log.d.meituan.net
-DOMAIN,route-stats.d.meituan.net
-DOMAIN,metrics-picture.d.meituan.net
-DOMAIN,maplocatesdksnapshot.d.meituan.net
-DOMAIN,babel-statistics-android.d.meituan.net
