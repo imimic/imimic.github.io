@@ -7,3 +7,5 @@ DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxvideo.net
 DOMAIN-SUFFIX,nflxext.com
 DOMAIN-SUFFIX,nflxso.net
+IP-CIDR,23.246.0.0/18,no-resolve
+IP-CIDR6,2a00:86c0::/32,no-resolve
