@@ -10,8 +10,7 @@ DOMAIN-SUFFIX,nflxso.net
 IP-CIDR,23.246.0.0/18,no-resolve
 IP-CIDR6,2a00:86c0::/32,no-resolve
 # > Disney+
-DOMAIN-SUFFIX,disney.connections.edge.bamgrid.com
-DOMAIN-SUFFIX,disney.api.edge.bamgrid.com
+DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,disney-plus.net
 DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,dssott.com
@@ -28,18 +27,21 @@ DOMAIN-SUFFIX,hbonow.com
 DOMAIN-SUFFIX,maxgo.com
 DOMAIN-SUFFIX,discomax.com
 # > Amazon Prime Video:
+DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,aiv-cdn.net
-DOMAIN-SUFFIX,amazonprimevideos.com
-DOMAIN-SUFFIX,amazonvideo.cc
+DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN-SUFFIX,amazonvideo.com
-DOMAIN-SUFFIX,prime-video.com
-DOMAIN-SUFFIX,primevideo.cc
+DOMAIN-SUFFIX,atv-ext-eu.amazon.com
+DOMAIN-SUFFIX,atv-ext-fe.amazon.com
+DOMAIN-SUFFIX,atv-ext.amazon.com
+DOMAIN-SUFFIX,atv-ps-eu.amazon.co.uk
+DOMAIN-SUFFIX,atv-ps-eu.amazon.com
+DOMAIN-SUFFIX,atv-ps-fe.amazon.co.jp
+DOMAIN-SUFFIX,atv-ps-fe.amazon.com
+DOMAIN-SUFFIX,atv-ps.amazon.com
 DOMAIN-SUFFIX,primevideo.com
-DOMAIN-SUFFIX,primevideo.info
-DOMAIN-SUFFIX,primevideo.org
-DOMAIN-SUFFIX,primevideo.tv
-DOMAIN-SUFFIX,amazonprimevideo.cn
-DOMAIN-SUFFIX,amazonprimevideo.com.cn
+DOMAIN-SUFFIX,pv-cdn.net
+DOMAIN-SUFFIX,video.a2z.com
 # > Bahamut Anime
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
