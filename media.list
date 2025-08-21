@@ -31,14 +31,6 @@ DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN-SUFFIX,amazonvideo.com
-DOMAIN-SUFFIX,atv-ext-eu.amazon.com
-DOMAIN-SUFFIX,atv-ext-fe.amazon.com
-DOMAIN-SUFFIX,atv-ext.amazon.com
-DOMAIN-SUFFIX,atv-ps-eu.amazon.co.uk
-DOMAIN-SUFFIX,atv-ps-eu.amazon.com
-DOMAIN-SUFFIX,atv-ps-fe.amazon.co.jp
-DOMAIN-SUFFIX,atv-ps-fe.amazon.com
-DOMAIN-SUFFIX,atv-ps.amazon.com
 DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,pv-cdn.net
 # > Bahamut Anime
