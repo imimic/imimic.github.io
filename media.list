@@ -28,7 +28,6 @@ DOMAIN-SUFFIX,maxgo.com
 DOMAIN-SUFFIX,discomax.com
 # > Amazon Prime Video:
 DOMAIN-SUFFIX,aiv-cdn.net
-DOMAIN-SUFFIX,amazon.dev
 DOMAIN-SUFFIX,akamaihd.net
 DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,cloudfront.net
