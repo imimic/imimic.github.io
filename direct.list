@@ -1,5 +1,7 @@
 # > Direct
 DEST-PORT,5201
+DOMAIN,mimic.wan
+DOMAIN,mimic.nas
 DOMAIN,v4.plex.tv
 DOMAIN-SUFFIX,istatmenus.app
 # China Apps
