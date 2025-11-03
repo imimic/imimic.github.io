@@ -10,3 +10,5 @@ DOMAIN-SUFFIX,tv.apple.com
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,apple-relay.cloudflare.com
+# > Apple Podcasts
+DOMAIN-SUFFIX,podcasts.apple.com
