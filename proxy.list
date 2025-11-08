@@ -1,11 +1,3 @@
-# > AppleTV
-DOMAIN,hls-amt.itunes.apple.com
-DOMAIN,hls.itunes.apple.com
-DOMAIN,np-edge.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
-DOMAIN,tv.applemusic.com
-DOMAIN,uts-api.itunes.apple.com
-DOMAIN-SUFFIX,tv.apple.com
 # > Apple Intelligence
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.fastly-edge.com
