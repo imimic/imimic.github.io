@@ -26,6 +26,9 @@ DOMAIN-SUFFIX,meituan.net
 DOMAIN-SUFFIX,mtyun.com
 DOMAIN-SUFFIX,neixin.cn
 DOMAIN-SUFFIX,sankuai.com
+# > UHD
+DOMAIN,smart.uhdnow.com
+DOMAIN,smart2.uhdnow.com
 # Media
 DOMAIN-SUFFIX,ottiptv.cc
 DOMAIN-SUFFIX,dytt-cinema.com
