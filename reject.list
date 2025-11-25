@@ -1,6 +1,9 @@
 # > REJECT
+DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN,crs.cr.adobe.com
 DOMAIN,cc-cdn.adobe.com
 DOMAIN,sstats.adobe.com
 DOMAIN-SUFFIX,adobe.io
 DOMAIN-SUFFIX,adobestats.io
+IP-CIDR,5.28.195.1/32,no-resolve
+IP-CIDR,95.161.76.100/31,no-resolve
