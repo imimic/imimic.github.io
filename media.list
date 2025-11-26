@@ -51,9 +51,12 @@ IP-CIDR,23.246.0.0/18,no-resolve
 IP-CIDR6,2a00:86c0::/32,no-resolve
 # > Disney+
 DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,braze.com
+DOMAIN-SUFFIX,conviva.com
 DOMAIN-SUFFIX,disney-plus.net
 DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,disney.my.sentry.io
 DOMAIN-SUFFIX,disneynow.com
 DOMAIN-SUFFIX,disneystreaming.com
 DOMAIN-SUFFIX,cdn.registerdisney.go.com
