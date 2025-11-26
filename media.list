@@ -61,14 +61,15 @@ DOMAIN-SUFFIX,disneynow.com
 DOMAIN-SUFFIX,disneystreaming.com
 DOMAIN-SUFFIX,cdn.registerdisney.go.com
 # > HBO / Max
-DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,brightline.tv
+DOMAIN-SUFFIX,discomax.com
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hbomaxcdn.com
 DOMAIN-SUFFIX,hbonow.com
+DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,maxgo.com
-DOMAIN-SUFFIX,discomax.com
 # > Amazon Prime Video:
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,d22qjgkvxw22r6.cloudfront.net
