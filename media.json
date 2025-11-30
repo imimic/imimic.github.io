@@ -102,9 +102,7 @@
         "mobileanalytics.us-east-1.amazonaws.com",
         "viu.com",
         "viu.now.com",
-        "viu.tv",
-        "redd.it",
-        "reddit.com"
+        "viu.tv"
       ],
       "domain_regex": [
         "(^|\\.)apiproxy-device-prod-nlb-.+\\.amazonaws\\.com$",
