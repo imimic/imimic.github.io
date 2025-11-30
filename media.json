@@ -2,7 +2,9 @@
   "version": 2,
   "rules": [
     {
+      "domain": "netflix.com.edgesuite.net",
       "domain_suffix": [
+        "uhdnow.com",
         "hls-amt.itunes.apple.com",
         "hls.itunes.apple.com",
         "np-edge.itunes.apple.com",
@@ -11,18 +13,36 @@
         "uts-api.itunes.apple.com",
         "tv.apple.com",
         "fast.com",
+        "netflix.ca",
         "netflix.com",
         "netflix.net",
+        "netflixinvestor.com",
+        "netflixtechblog.com",
+        "nflxext.com",
         "nflximg.com",
         "nflximg.net",
-        "nflxvideo.net",
-        "nflxext.com",
+        "nflxsearch.net",
         "nflxso.net",
+        "nflxvideo.net",
+        "netflixdnstest0.com",
+        "netflixdnstest1.com",
+        "netflixdnstest2.com",
+        "netflixdnstest3.com",
+        "netflixdnstest4.com",
+        "netflixdnstest5.com",
+        "netflixdnstest6.com",
+        "netflixdnstest7.com",
+        "netflixdnstest8.com",
+        "netflixdnstest9.com",
+        "netflixdnstest10.com",
         "disney.connections.edge.bamgrid.com",
         "disney.api.edge.bamgrid.com",
+        "braze.com",
+        "conviva.com",
         "disney-plus.net",
         "disneyplus.com",
         "dssott.com",
+        "disney.my.sentry.io",
         "disneynow.com",
         "disneystreaming.com",
         "cdn.registerdisney.go.com",
@@ -81,7 +101,15 @@
         "mobileanalytics.us-east-1.amazonaws.com",
         "viu.com",
         "viu.now.com",
-        "viu.tv"
+        "viu.tv",
+        "redd.it",
+        "reddit.com"
+      ],
+      "domain_regex": [
+        "(^|\\.)apiproxy-device-prod-nlb-.+\\.amazonaws\\.com$",
+        "(^|\\.)apiproxy-website-nlb-prod-.+\\.amazonaws\\.com$",
+        "(^|\\.)dualstack\\.apiproxy-.+\\.amazonaws\\.com$",
+        "(^|\\.)dualstack\\.ichnaea-web-.+\\.amazonaws\\.com$"
       ]
     }
   ]
