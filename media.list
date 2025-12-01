@@ -62,6 +62,7 @@ DOMAIN-SUFFIX,disneystreaming.com
 DOMAIN-SUFFIX,cdn.registerdisney.go.com
 # > HBO / Max
 DOMAIN-SUFFIX,brightline.tv
+DOMAIN-SUFFIX,cinemax.com
 DOMAIN-SUFFIX,discomax.com
 DOMAIN-SUFFIX,h264.io
 DOMAIN-SUFFIX,hbo.com
@@ -69,6 +70,7 @@ DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hbomaxcdn.com
 DOMAIN-SUFFIX,hbonow.com
+DOMAIN-SUFFIX,litix.io
 DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,maxgo.com
 # > Amazon Prime Video:
