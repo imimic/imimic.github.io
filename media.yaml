@@ -31,8 +31,7 @@ payload:
     - +.netflixdnstest8.com
     - +.netflixdnstest9.com
     - +.netflixdnstest10.com
-    - +.disney.connections.edge.bamgrid.com
-    - +.disney.api.edge.bamgrid.com
+    - +.bamgrid.com
     - +.braze.com
     - +.conviva.com
     - +.disney-plus.net
@@ -43,14 +42,17 @@ payload:
     - +.disneystreaming.com
     - +.cdn.registerdisney.go.com
     - +.brightline.tv
-    - +.max.com
+    - +.cinemax.com
+    - +.discomax.com
+    - +.h264.io
     - +.hbo.com
     - +.hbogo.com
     - +.hbomax.com
     - +.hbomaxcdn.com
     - +.hbonow.com
+    - +.litix.io
+    - +.max.com
     - +.maxgo.com
-    - +.discomax.com
     - +.amazonvideo.com
     - +.primevideo.com
     - +.bahamut.com.tw
