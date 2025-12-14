@@ -20,14 +20,15 @@ DOMAIN-SUFFIX,CN
 DOMAIN-KEYWORD,baidu
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,jddebug.com
-DOMAIN-SUFFIX,keeflys.com
 DOMAIN-SUFFIX,maoyan.com
 DOMAIN-SUFFIX,meituan.com
 DOMAIN-SUFFIX,meituan.net
 DOMAIN-SUFFIX,mtyun.com
 DOMAIN-SUFFIX,neixin.cn
 DOMAIN-SUFFIX,sankuai.com
-# > Emby
+# > Media
 DOMAIN-SUFFIX,204cloud.com
+DOMAIN-SUFFIX,keeflys.com
+DOMAIN-SUFFIX,ottiptv.cc
 DOMAIN,smart.uhdnow.com
 DOMAIN,smart2.uhdnow.com
