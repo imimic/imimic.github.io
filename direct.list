@@ -1,5 +1,4 @@
 # > Direct
-DEST-PORT,22
 DEST-PORT,5201
 DOMAIN,v4.plex.tv
 DOMAIN-SUFFIX,istatmenus.app
