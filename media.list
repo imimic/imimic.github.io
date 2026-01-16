@@ -1,6 +1,5 @@
 # > UHD
-DOMAIN,v1.uhdnow.com
-DOMAIN,global.uhdnow.com
+DOMAIN-SUFFIX,uhdnow.com
 # > AppleTV
 DOMAIN,hls-amt.itunes.apple.com
 DOMAIN,hls.itunes.apple.com
