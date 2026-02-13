@@ -1142,3 +1142,79 @@ IP-CIDR6,2607:fb10::/32,no-resolve
 IP-CIDR6,2620:10c:7000::/44,no-resolve
 IP-CIDR6,2a00:86c0::/32,no-resolve
 IP-CIDR6,2a03:5640::/32,no-resolve
+# > Disney+
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,braze.com
+DOMAIN-SUFFIX,conviva.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,disney.my.sentry.io
+DOMAIN-SUFFIX,disneynow.com
+DOMAIN-SUFFIX,disneystreaming.com
+DOMAIN-SUFFIX,cdn.registerdisney.go.com
+# > HBO / Max
+DOMAIN-SUFFIX,brightline.tv
+DOMAIN-SUFFIX,cinemax.com
+DOMAIN-SUFFIX,discomax.com
+DOMAIN-SUFFIX,h264.io
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,hbomaxcdn.com
+DOMAIN-SUFFIX,hbonow.com
+DOMAIN-SUFFIX,litix.io
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,maxgo.com
+# > Amazon Prime Video:
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+DOMAIN,d22qjgkvxw22r6.cloudfront.net
+DOMAIN,d25xi40x97liuc.cloudfront.net
+DOMAIN,d27xxe7juh1us6.cloudfront.net
+DOMAIN,dmqdd6hw24ucf.cloudfront.net
+DOMAIN,msh.amazon.co.uk
+DOMAIN-SUFFIX,a2z.com
+DOMAIN-SUFFIX,aiv-cdn.net
+DOMAIN-SUFFIX,aiv-delivery.net
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,fastly-edge.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,primevideo.com
+DOMAIN-SUFFIX,pv-cdn.net
+DOMAIN-SUFFIX,ssl-images-amazon.com
+# > Bahamut Anime
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN-SUFFIX,gamer-cds.cdn.hinet.net
+DOMAIN-SUFFIX,gamer2-cds.cdn.hinet.net
+# > HOY TV
+DOMAIN-SUFFIX,hoy.tv
+# > MyTVSuper
+DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
+DOMAIN-SUFFIX,mytvsuperlimited.sc.omtrdc.net
+DOMAIN-SUFFIX,tvb.com
+# > Now E 
+DOMAIN-SUFFIX,nowe.com
+DOMAIN-SUFFIX,nowestatic.com
+# > TVBAnywhere+
+DOMAIN-SUFFIX,tvbanywhere.com
+DOMAIN-SUFFIX,tvbanywhere.com.sg
+DOMAIN-SUFFIX,tvb.com.au
+DOMAIN-SUFFIX,tvbc.com.cn
+DOMAIN-SUFFIX,tvbeventpower.com.hk
+DOMAIN-SUFFIX,tvbusa.com
+DOMAIN-SUFFIX,tvbweekly.com
+DOMAIN-SUFFIX,tvmedia.net.au
+# > Viu.com
+DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
+DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
+DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
+DOMAIN-SUFFIX,d3o7oi00quuwqu.cloudfront.net
+DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,viu.com
+# > Viu.TV
+DOMAIN-SUFFIX,viu.now.com
+DOMAIN-SUFFIX,viu.tv
