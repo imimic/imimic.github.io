@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,netflixdnstest8.com
 DOMAIN-SUFFIX,netflixdnstest9.com
 DOMAIN-SUFFIX,netflixdnstest10.com
 IP-CIDR,23.246.0.0/18,no-resolve
+IP-CIDR,198.38.96.0/19,no-resolve
 IP-CIDR,203.198.0.0/20,no-resolve
 IP-CIDR,203.198.80.0/21,no-resolve
 IP-CIDR,218.102.32.0/19,no-resolve
