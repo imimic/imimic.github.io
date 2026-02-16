@@ -33,6 +33,12 @@ DOMAIN-SUFFIX,netflixdnstest7.com
 DOMAIN-SUFFIX,netflixdnstest8.com
 DOMAIN-SUFFIX,netflixdnstest9.com
 DOMAIN-SUFFIX,netflixdnstest10.com
+IP-CIDR,23.246.0.0/18,no-resolve
+IP-CIDR,203.198.0.0/20,no-resolve
+IP-CIDR,218.102.32.0/19,no-resolve
+IP-CIDR,219.76.0.0/17,no-resolve
+IP-CIDR6,2620:10c:7000::/44,no-resolve
+IP-CIDR6,2a00:86c0::/32,no-resolve
 # > Disney+
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,braze.com
