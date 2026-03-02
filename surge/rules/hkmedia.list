@@ -1,36 +1,3 @@
-# > Netflix
-DOMAIN,netflix.com.edgesuite.net
-DOMAIN-SUFFIX,fast.com
-DOMAIN-SUFFIX,netflix.ca
-DOMAIN-SUFFIX,netflix.com
-DOMAIN-SUFFIX,netflix.net
-DOMAIN-SUFFIX,netflixinvestor.com
-DOMAIN-SUFFIX,netflixtechblog.com
-DOMAIN-SUFFIX,nflxext.com
-DOMAIN-SUFFIX,nflximg.com
-DOMAIN-SUFFIX,nflximg.net
-DOMAIN-SUFFIX,nflxsearch.net
-DOMAIN-SUFFIX,nflxso.net
-DOMAIN-SUFFIX,nflxvideo.net
-DOMAIN-SUFFIX,netflixdnstest0.com
-DOMAIN-SUFFIX,netflixdnstest1.com
-DOMAIN-SUFFIX,netflixdnstest2.com
-DOMAIN-SUFFIX,netflixdnstest3.com
-DOMAIN-SUFFIX,netflixdnstest4.com
-DOMAIN-SUFFIX,netflixdnstest5.com
-DOMAIN-SUFFIX,netflixdnstest6.com
-DOMAIN-SUFFIX,netflixdnstest7.com
-DOMAIN-SUFFIX,netflixdnstest8.com
-DOMAIN-SUFFIX,netflixdnstest9.com
-DOMAIN-SUFFIX,netflixdnstest10.com
-IP-CIDR,23.246.0.0/18,no-resolve
-IP-CIDR,198.38.96.0/19,no-resolve
-IP-CIDR,203.198.0.0/20,no-resolve
-IP-CIDR,203.198.80.0/21,no-resolve
-IP-CIDR,218.102.32.0/19,no-resolve
-IP-CIDR,219.76.0.0/17,no-resolve
-IP-CIDR6,2620:10c:7000::/44,no-resolve
-IP-CIDR6,2a00:86c0::/32,no-resolve
 # > Disney+
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,braze.com
