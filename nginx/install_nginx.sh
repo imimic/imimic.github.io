@@ -56,8 +56,8 @@ stream {
 
     server {
         resolver 1.1.1.1 1.0.0.1 valid=60s ipv6=off;
-        listen 4443 reuseport;
-        listen [::]:4443 reuseport;
+        listen 443 reuseport;
+        listen [::]:443 reuseport;
         ssl_preread on;
         tcp_nodelay on;
         proxy_connect_timeout 5s; 
@@ -74,7 +74,7 @@ systemctl enable nginx
 
 echo "=========================================="
 echo " Nginx 安装和配置已全部完成！"
-echo " 代理已监听在端口: 4443"
+echo " 代理已监听在端口: 443"
 echo "=========================================="
 # 输出当前运行状态
 systemctl status nginx --no-pager | grep "Active:"
