@@ -1,6 +1,5 @@
 # > F1
-DOMAIN,known-issues.apple.com
-DOMAIN,linear.tv.apple.com
+DOMAIN-SUFFIX,formula1.com
 # > UHD
 DOMAIN-SUFFIX,uhdnow.com
 # > AppleTV
