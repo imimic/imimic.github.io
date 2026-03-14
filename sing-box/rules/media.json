@@ -2,9 +2,7 @@
   "version": 2,
   "rules": [
     {
-      "domain": "netflix.com.edgesuite.net",
-      "domain_suffix": [
-        "uhdnow.com",
+      "domain": [
         "apple-tv-plus-press.apple.com",
         "hls-amt.itunes.apple.com",
         "hls.itunes.apple.com",
@@ -13,6 +11,10 @@
         "play-edge.itunes.apple.com",
         "tv.applemusic.com",
         "uts-api.itunes.apple.com",
+        "netflix.com.edgesuite.net"
+      ],    
+      "domain_suffix": [
+        "uhdnow.com",
         "tv.apple.com",
         "fast.com",
         "netflix.ca",
@@ -26,17 +28,6 @@
         "nflxsearch.net",
         "nflxso.net",
         "nflxvideo.net",
-        "netflixdnstest0.com",
-        "netflixdnstest1.com",
-        "netflixdnstest2.com",
-        "netflixdnstest3.com",
-        "netflixdnstest4.com",
-        "netflixdnstest5.com",
-        "netflixdnstest6.com",
-        "netflixdnstest7.com",
-        "netflixdnstest8.com",
-        "netflixdnstest9.com",
-        "netflixdnstest10.com",
         "bamgrid.com",
         "braze.com",
         "conviva.com",
