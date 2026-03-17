@@ -55,18 +55,18 @@ stream {
         ""                                          127.0.0.1:1;
 
         # --- Netflix ---
-        .fast.com                                   163.53.18.70:443
-        .netflix.ca                                 163.53.18.70:443
-        .netflix.com                                163.53.18.70:443
-        .netflix.net                                163.53.18.70:443
-        .netflixinvestor.com                        163.53.18.70:443
-        .netflixtechblog.com                        163.53.18.70:443
-        .nflxext.com                                163.53.18.70:443
-        .nflximg.com                                163.53.18.70:443
-        .nflximg.net                                163.53.18.70:443
-        .nflxsearch.net                             163.53.18.70:443
-        .nflxso.net                                 163.53.18.70:443
-        .nflxvideo.net                              163.53.18.70:443
+        .fast.com                                   163.53.18.70:443;
+        .netflix.ca                                 163.53.18.70:443;
+        .netflix.com                                163.53.18.70:443;
+        .netflix.net                                163.53.18.70:443;
+        .netflixinvestor.com                        163.53.18.70:443;
+        .netflixtechblog.com                        163.53.18.70:443;
+        .nflxext.com                                163.53.18.70:443;
+        .nflximg.com                                163.53.18.70:443;
+        .nflximg.net                                163.53.18.70:443;
+        .nflxsearch.net                             163.53.18.70:443;
+        .nflxso.net                                 163.53.18.70:443;
+        .nflxvideo.net                              163.53.18.70:443;
 
         # --- Disney+ ---
         .bamgrid.com                                $ssl_preread_server_name:443;
@@ -94,20 +94,20 @@ stream {
         .maxgo.com                                  $ssl_preread_server_name:443;
 
         # --- Hotstar ---
-        .hotstar.com                                163.53.18.70:443
-        .hotstarext.com                             163.53.18.70:443
+        .hotstar.com                                163.53.18.70:443;
+        .hotstarext.com                             163.53.18.70:443;
 
         # OpenAI / Claude / Google / Microsoft
-        .openai.com                                 163.53.18.70:443
-        .chatgpt.com                                163.53.18.70:443
-        .sora.com                                   163.53.18.70:443
-        .oaistatic.com                              163.53.18.70:443
-        .oaiusercontent.com                         163.53.18.70:443
-        .anthropic.com                              163.53.18.70:443
-        .claude.ai                                  163.53.18.70:443
-        .google.com                                 163.53.18.70:443
-        .googleapis.com                             163.53.18.70:443
-        .app-analytics-services.com                 163.53.18.70:443
+        .openai.com                                 163.53.18.70:443;
+        .chatgpt.com                                163.53.18.70:443;
+        .sora.com                                   163.53.18.70:443;
+        .oaistatic.com                              163.53.18.70:443;
+        .oaiusercontent.com                         163.53.18.70:443;
+        .anthropic.com                              163.53.18.70:443;
+        .claude.ai                                  163.53.18.70:443;
+        .google.com                                 163.53.18.70:443;
+        .googleapis.com                             163.53.18.70:443;
+        .app-analytics-services.com                 163.53.18.70:443;
 
         default                                     $ssl_preread_server_name:443;
     }
