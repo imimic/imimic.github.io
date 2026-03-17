@@ -72,6 +72,7 @@ stream {
         .copilot.microsoft.com      185.36.192.252:443;
 
         default                     $ssl_preread_server_name:443;
+
     }
 
     server {
