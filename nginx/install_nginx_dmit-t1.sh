@@ -55,59 +55,34 @@ stream {
         ""                                          127.0.0.1:1;
 
         # --- Netflix ---
-        .fast.com                                   163.53.18.70:443;
-        .netflix.ca                                 163.53.18.70:443;
-        .netflix.com                                163.53.18.70:443;
-        .netflix.net                                163.53.18.70:443;
-        .netflixinvestor.com                        163.53.18.70:443;
-        .netflixtechblog.com                        163.53.18.70:443;
-        .nflxext.com                                163.53.18.70:443;
-        .nflximg.com                                163.53.18.70:443;
-        .nflximg.net                                163.53.18.70:443;
-        .nflxsearch.net                             163.53.18.70:443;
-        .nflxso.net                                 163.53.18.70:443;
-        .nflxvideo.net                              163.53.18.70:443;
-
-        # --- Disney+ ---
-        .bamgrid.com                                $ssl_preread_server_name:443;
-        .braze.com                                  $ssl_preread_server_name:443;
-        .conviva.com                                $ssl_preread_server_name:443;
-        .disney-plus.net                            $ssl_preread_server_name:443;
-        .disneyplus.com                             $ssl_preread_server_name:443;
-        .dssott.com                                 $ssl_preread_server_name:443;
-        .disney.my.sentry.io                        $ssl_preread_server_name:443;
-        .disneynow.com                              $ssl_preread_server_name:443;
-        .disneystreaming.com                        $ssl_preread_server_name:443;
-        .cdn.registerdisney.go.com                  $ssl_preread_server_name:443;
-
-        # --- HBO / Max ---
-        .brightline.tv                              $ssl_preread_server_name:443;
-        .cinemax.com                                $ssl_preread_server_name:443;
-        .discomax.com                               $ssl_preread_server_name:443;
-        .hbo.com                                    $ssl_preread_server_name:443;
-        .hbogo.com                                  $ssl_preread_server_name:443;
-        .hbomax.com                                 $ssl_preread_server_name:443;
-        .hbomaxcdn.com                              $ssl_preread_server_name:443;
-        .hbonow.com                                 $ssl_preread_server_name:443;
-        .litix.io                                   $ssl_preread_server_name:443;
-        .max.com                                    $ssl_preread_server_name:443;
-        .maxgo.com                                  $ssl_preread_server_name:443;
+        .fast.com                                   [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .netflix.ca                                 [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .netflix.com                                [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .netflix.net                                [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .netflixinvestor.com                        [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .netflixtechblog.com                        [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .nflxext.com                                [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .nflximg.com                                [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .nflximg.net                                [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .nflxsearch.net                             [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .nflxso.net                                 [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .nflxvideo.net                              [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
 
         # --- Hotstar ---
-        .hotstar.com                                163.53.18.70:443;
-        .hotstarext.com                             163.53.18.70:443;
+        .hotstar.com                                [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .hotstarext.com                             [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
 
         # OpenAI / Claude / Google / Microsoft
-        .openai.com                                 163.53.18.70:443;
-        .chatgpt.com                                163.53.18.70:443;
-        .sora.com                                   163.53.18.70:443;
-        .oaistatic.com                              163.53.18.70:443;
-        .oaiusercontent.com                         163.53.18.70:443;
-        .anthropic.com                              163.53.18.70:443;
-        .claude.ai                                  163.53.18.70:443;
-        .google.com                                 163.53.18.70:443;
-        .googleapis.com                             163.53.18.70:443;
-        .app-analytics-services.com                 163.53.18.70:443;
+        .openai.com                                 [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .chatgpt.com                                [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .sora.com                                   [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .oaistatic.com                              [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .oaiusercontent.com                         [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .anthropic.com                              [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .claude.ai                                  [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .google.com                                 [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .googleapis.com                             [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
+        .app-analytics-services.com                 [2407:cdc0:b007:7da9:6797:6748:601d:5b55]:443;
 
         default                                     $ssl_preread_server_name:443;
 
@@ -116,6 +91,7 @@ stream {
     server {
         resolver 1.1.1.1 1.0.0.1 valid=60s ipv6=off;
         listen 443 reuseport;
+        listen [::]:443 reuseport;
         ssl_preread on;
         tcp_nodelay on;
         proxy_connect_timeout 5s; 
