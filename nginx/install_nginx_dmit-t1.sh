@@ -72,7 +72,7 @@ stream {
         .hotstar.com                                163.53.18.70:443;
         .hotstarext.com                             163.53.18.70:443;
 
-        # OpenAI / Claude / Google / Microsoft
+        # OpenAI / Claude
         .openai.com                                 163.53.18.70:443;
         .chatgpt.com                                163.53.18.70:443;
         .sora.com                                   163.53.18.70:443;
@@ -88,7 +88,6 @@ stream {
     server {
         resolver 1.1.1.1 1.0.0.1 valid=60s ipv6=off;
         listen 443 reuseport;
-        listen [::]:443 reuseport;
         ssl_preread on;
         tcp_nodelay on;
         proxy_connect_timeout 5s; 
