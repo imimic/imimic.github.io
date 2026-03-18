@@ -1,7 +1,7 @@
 # > Direct
 DEST-PORT,5201
 DOMAIN,v4.plex.tv
-DOMAIN-SUFFIX,synology.com
+DOMAIN-KEYWORD,synology
 DOMAIN-SUFFIX,istatmenus.app
 # China
 DOMAIN-SUFFIX,dianping.com
