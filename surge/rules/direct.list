@@ -3,6 +3,7 @@ DEST-PORT,5201
 DOMAIN,v4.plex.tv
 DOMAIN-KEYWORD,synology
 DOMAIN-SUFFIX,istatmenus.app
+IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
 # China
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,jddebug.com
