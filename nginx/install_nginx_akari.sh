@@ -66,10 +66,6 @@ stream {
         .oaiusercontent.com         185.36.192.252:443;
         .anthropic.com              185.36.192.252:443;
         .claude.ai                  185.36.192.252:443;
-        .google.com                 185.36.192.252:443;
-        .googleapis.com             185.36.192.252:443;
-        .app-analytics-services.com 185.36.192.252:443;
-        .copilot.microsoft.com      185.36.192.252:443;
 
         default                     $ssl_preread_server_name:443;
 
