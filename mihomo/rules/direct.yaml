@@ -1,5 +1,7 @@
 payload:
     - v4.plex.tv
+    - +.istatmenus.app
+    - +.keeflys.com
     - +.synology.com
     - +.synologydownload.com
     - +.synologyupdate.com
