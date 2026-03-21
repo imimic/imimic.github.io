@@ -5,8 +5,10 @@
       "domain": "v4.plex.tv",
       "domain_suffix": [
         "istatmenus.app",
-        "keeflys.com"
-        "ottiptv.cc"
+        "keeflys.com",
+        "synology.com",
+        "synologydownload.com",
+        "synologyupdate.com"
       ]
     }
   ]
