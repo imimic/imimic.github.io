@@ -1,4 +1,5 @@
 # > REJECT
+DOMAIN,dns.google.com
 DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN-SUFFIX,xbtest.com
 IP-CIDR,5.28.195.0/30,no-resolve
