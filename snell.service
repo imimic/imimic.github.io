@@ -5,10 +5,10 @@ After=network.target
 [Service]
 Type=simple
 User=root
-Restart=on-failure
-RestartSec=2s
 LimitNOFILE=infinity
 ExecStart=/usr/local/bin/snell-server -c /etc/snell-server.conf
+Restart=on-failure
+RestartSec=10s
 
 [Install]
 WantedBy=multi-user.target
