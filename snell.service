@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 User=root
 Restart=on-failure
-RestartSec=10s
+RestartSec=2s
 LimitNOFILE=infinity
 ExecStart=/usr/local/bin/snell-server -c /etc/snell-server.conf
 
