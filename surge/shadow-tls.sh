@@ -53,6 +53,7 @@ cat > "$SERVICE_FILE" << EOF
 [Unit]
 Description=Shadow-TLS Server Service
 After=network-online.target
+Wants=network-online.target
 
 [Service]
 Type=simple
