@@ -1,6 +1,8 @@
 [Unit]
 Description=Snell Proxy Service
-After=network.target
+DefaultDependencies=no
+After=network-online.target
+Wants=network-online.target
 
 [Service]
 Type=simple
