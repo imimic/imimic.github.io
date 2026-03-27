@@ -2,8 +2,11 @@ payload:
     - v4.plex.tv
     - +.once.im
     - +.uhdnow.com
+    - +.assrt.net
+    - +.zimuku.org
     - +.istatmenus.app
     - +.keeflys.com
     - +.synology.com
-    - +.synologydownload.com
+    - +.quickconnect.to
     - +.synologyupdate.com
+    - +.synologydownload.com
