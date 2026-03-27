@@ -3,7 +3,6 @@ DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,112788.xyz
 DOMAIN-SUFFIX,omimic.com
 DOMAIN-SUFFIX,timeweb.cloud
-DOMAIN-SUFFIX,letsencrypt.org
 # > Apple Intelligence
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
