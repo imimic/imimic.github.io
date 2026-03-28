@@ -52,9 +52,9 @@ stream {
     map $ssl_preread_server_name $target_backend {
         hostnames;
 
-        ""                                          127.0.0.1:1;
+        ""                          127.0.0.1:1;
 
-        default                                     $ssl_preread_server_name:443;
+        default                     $ssl_preread_server_name:443;
 
     }
 
