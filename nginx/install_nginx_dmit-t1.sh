@@ -59,7 +59,7 @@ stream {
     }
 
     server {
-        resolver 1.1.1.1 1.0.0.1 valid=60s ipv6=off;
+        resolver 8.8.8.8 8.8.4.4 valid=60s ipv6=off;
         listen 443 reuseport;
         listen [::1]:443 reuseport;
         ssl_preread on;
