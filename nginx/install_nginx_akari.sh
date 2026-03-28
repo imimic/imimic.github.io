@@ -54,11 +54,11 @@ stream {
 
         ""                          127.0.0.1:1;
 
-        # Hotstar
+        # > Hotstar
         .hotstar.com                185.36.192.252:443;
         .hotstarext.com             185.36.192.252:443;
 
-        # OpenAI / Claude
+        # > OpenAI / Claude
         .openai.com                 185.36.192.252:443;
         .chatgpt.com                185.36.192.252:443;
         .sora.com                   185.36.192.252:443;
