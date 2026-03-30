@@ -42,32 +42,30 @@ error_log /var/log/nginx/error.log notice;
 pid       /var/run/nginx.pid;
 
 events {
-    worker_connections 1024;
+    worker_connections 2048;
     multi_accept on;
     use epoll;
 }
 
 stream {
+    resolver 8.8.8.8 8.8.4.4 valid=60s ipv6=off;
 
     map $ssl_preread_server_name $target_backend {
         hostnames;
-
-        ""                          127.0.0.1:1;
-
-        default                     $ssl_preread_server_name:443;
-
+        ""       127.0.0.1:1; 
+        default  $ssl_preread_server_name:443;
     }
 
     server {
-        resolver 8.8.8.8 8.8.4.4 valid=60s ipv6=off;
-        listen 443 reuseport;
+        listen 4443 reuseport;
         ssl_preread on;
         tcp_nodelay on;
-        proxy_connect_timeout 5s; 
-        proxy_timeout 300s;
+        proxy_socket_keepalive on;
+        proxy_connect_timeout 5s;
+        proxy_timeout 3600s;
+        proxy_buffer_size 64k; 
         proxy_pass $target_backend;
     }
-
 }
 EOF
 
