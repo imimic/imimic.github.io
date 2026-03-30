@@ -49,15 +49,23 @@ events {
 
 stream {
 
+    map $ssl_preread_server_name $target_backend {
+        hostnames;
+
+        ""                          127.0.0.1:1;
+
+        default                     $ssl_preread_server_name:443;
+
+    }
+
     server {
         resolver 8.8.8.8 8.8.4.4 valid=60s ipv6=off;
-        listen 127.0.0.1:443 reuseport;
-        listen [::1]:443 reuseport;
+        listen 443 reuseport;
         ssl_preread on;
         tcp_nodelay on;
         proxy_connect_timeout 5s; 
         proxy_timeout 300s;
-        proxy_pass 163.53.18.70:443;
+        proxy_pass $target_backend;
     }
 
 }
