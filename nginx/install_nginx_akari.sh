@@ -48,6 +48,7 @@ events {
 }
 
 stream {
+    resolver 163.53.18.252 valid=60s ipv6=off;
 
     map $ssl_preread_server_name $target_backend {
         hostnames;
@@ -72,12 +73,13 @@ stream {
     }
 
     server {
-        resolver 163.53.18.252 valid=60s ipv6=off;
         listen 443 reuseport;
         ssl_preread on;
         tcp_nodelay on;
+        proxy_socket_keepalive on;
         proxy_connect_timeout 5s; 
-        proxy_timeout 300s;
+        proxy_timeout 3600s;
+        proxy_buffer_size 64k; 
         proxy_pass $target_backend;
     }
 
