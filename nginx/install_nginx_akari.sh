@@ -53,8 +53,6 @@ stream {
     map $ssl_preread_server_name $target_backend {
         hostnames;
 
-        ""                          127.0.0.1:1;
-
         # > Hotstar
         .hotstar.com                185.36.192.252:443;
         .hotstarext.com             185.36.192.252:443;
