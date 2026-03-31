@@ -50,6 +50,10 @@ events {
 stream {
     resolver 8.8.8.8 8.8.4.4 valid=60s ipv6=off;
 
+    map $remote_addr $target_backend {
+        default hkt.112788.xyz:4443;
+    }
+
     server {
         listen 443 reuseport;
         ssl_preread on;
@@ -58,7 +62,7 @@ stream {
         proxy_connect_timeout 5s;
         proxy_timeout 3600s;
         proxy_buffer_size 64k; 
-        proxy_pass $ssl_preread_server_name:443;
+        proxy_pass $target_backend;
     }
 }
 EOF
