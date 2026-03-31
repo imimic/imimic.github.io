@@ -42,7 +42,7 @@ error_log /var/log/nginx/error.log notice;
 pid       /var/run/nginx.pid;
 
 events {
-    worker_connections 2048;
+    worker_connections 1024;
     multi_accept on;
     use epoll;
 }
@@ -58,10 +58,8 @@ stream {
         listen 443 reuseport;
         ssl_preread on;
         tcp_nodelay on;
-        proxy_socket_keepalive on;
         proxy_connect_timeout 5s;
         proxy_timeout 3600s;
-        proxy_buffer_size 64k; 
         proxy_pass $target_backend;
     }
 }
