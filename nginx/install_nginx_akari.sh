@@ -42,7 +42,7 @@ error_log /var/log/nginx/error.log notice;
 pid       /var/run/nginx.pid;
 
 events {
-    worker_connections 1024;
+    worker_connections 2048;
     multi_accept on;
     use epoll;
 }
