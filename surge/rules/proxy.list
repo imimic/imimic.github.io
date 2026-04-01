@@ -8,9 +8,9 @@ DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,apple-relay.mask.apple-dns.net
-DOMAIN,guzzoni.apple.com
-DOMAIN,guzzoni.smoot.apple.com
-DOMAIN,gspe1-ssl.ls.apple.com
+# DOMAIN,guzzoni.apple.com
+# DOMAIN,guzzoni.smoot.apple.com
+# DOMAIN,gspe1-ssl.ls.apple.com
 # > Anthropic
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
