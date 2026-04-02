@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,112788.xyz
 DOMAIN-SUFFIX,omimic.com
 DOMAIN-SUFFIX,timeweb.cloud
+DOMAIN-KEYWORD,datadoghq.com
 # > Apple Intelligence
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
@@ -14,4 +15,3 @@ DOMAIN,apple-relay.mask.apple-dns.net
 # > Anthropic
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
-DOMAIN-KEYWORD,datadoghq.com
