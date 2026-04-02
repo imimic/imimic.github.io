@@ -4,6 +4,7 @@ DOMAIN,v4.plex.tv
 DOMAIN-KEYWORD,synology
 DOMAIN-SUFFIX,assrt.net
 DOMAIN-SUFFIX,zimuku.org
+DOMAIN-SUFFIX,pool.ntp.org
 DOMAIN-SUFFIX,istatmenus.app
 DOMAIN-SUFFIX,letsencrypt.org
 DOMAIN-SUFFIX,quickconnect.cn
