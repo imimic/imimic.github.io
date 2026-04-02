@@ -15,3 +15,4 @@ DOMAIN,apple-relay.mask.apple-dns.net
 # > Anthropic
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,siftscience.com
