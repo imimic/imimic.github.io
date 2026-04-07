@@ -6,13 +6,13 @@ echo "  Netflix 状态检测与 TG 通知 一键配置脚本  "
 echo "=========================================="
 
 # 1. 强制要求输入 TG 机器人配置
-read -p "请输入 Telegram Bot Token (必填): " BOT_TOKEN
+read -p "请输入 Telegram Bot Token (必填): " BOT_TOKEN </dev/tty
 if [[ -z "$BOT_TOKEN" ]]; then
   echo "❌ 错误: 未输入 Bot Token，安装已终止。"
   exit 1
 fi
 
-read -p "请输入 Telegram Chat ID (必填): " CHAT_ID
+read -p "请输入 Telegram Chat ID (必填): " CHAT_ID </dev/tty
 if [[ -z "$CHAT_ID" ]]; then
   echo "❌ 错误: 未输入 Chat ID，安装已终止。"
   exit 1
