@@ -1,22 +1,23 @@
 #!/usr/bin/env bash
 set -e
 
+# 核心修复：强制将输入流绑定到当前终端键盘，解决 curl | bash 无法交互的问题
+exec < /dev/tty
+
 echo "=========================================="
 echo "  Netflix 状态检测与 TG 通知 一键配置脚本  "
 echo "=========================================="
 
-# 1. 强制要求输入 TG 机器人配置
-read -p "请输入 Telegram Bot Token (必填): " BOT_TOKEN </dev/tty
-if [[ -z "$BOT_TOKEN" ]]; then
-  echo "❌ 错误: 未输入 Bot Token，安装已终止。"
-  exit 1
-fi
+# 循环等待，不输入就不往下走，去掉了直接退出的报错逻辑
+BOT_TOKEN=""
+while [[ -z "$BOT_TOKEN" ]]; do
+  read -p "请输入 Telegram Bot Token (必填): " BOT_TOKEN
+done
 
-read -p "请输入 Telegram Chat ID (必填): " CHAT_ID </dev/tty
-if [[ -z "$CHAT_ID" ]]; then
-  echo "❌ 错误: 未输入 Chat ID，安装已终止。"
-  exit 1
-fi
+CHAT_ID=""
+while [[ -z "$CHAT_ID" ]]; do
+  read -p "请输入 Telegram Chat ID (必填): " CHAT_ID
+done
 
 # 2. 生成主检测脚本
 echo "[1/4] 正在创建检测脚本 /usr/local/bin/nf_hk_check_notify.sh ..."
