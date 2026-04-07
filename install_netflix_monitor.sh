@@ -4,16 +4,9 @@ echo "=========================================="
 echo "  Netflix 状态检测与 TG 通知 一键配置脚本  "
 echo "=========================================="
 
-# 1. 强制从终端 /dev/tty 读取键盘输入，不输入就一直循环询问
-BOT_TOKEN=""
-while [[ -z "$BOT_TOKEN" ]]; do
-  read -p "👉 请输入 Telegram Bot Token (必填): " BOT_TOKEN < /dev/tty
-done
-
-CHAT_ID=""
-while [[ -z "$CHAT_ID" ]]; do
-  read -p "👉 请输入 Telegram Chat ID (必填): " CHAT_ID < /dev/tty
-done
+# 1. 从终端 /dev/tty 读取键盘输入
+read -p "👉 请输入 Telegram Bot Token (必填): " BOT_TOKEN < /dev/tty
+read -p "👉 请输入 Telegram Chat ID (必填): " CHAT_ID < /dev/tty
 
 # 2. 生成主检测脚本
 echo "[1/4] 正在创建检测脚本 /usr/local/bin/nf_hk_check_notify.sh ..."
