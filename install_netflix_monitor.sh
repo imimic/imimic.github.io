@@ -1,22 +1,18 @@
 #!/usr/bin/env bash
-set -e
-
-# 核心修复：强制将输入流绑定到当前终端键盘，解决 curl | bash 无法交互的问题
-exec < /dev/tty
 
 echo "=========================================="
 echo "  Netflix 状态检测与 TG 通知 一键配置脚本  "
 echo "=========================================="
 
-# 循环等待，不输入就不往下走，去掉了直接退出的报错逻辑
+# 1. 强制从终端 /dev/tty 读取键盘输入，不输入就一直循环询问
 BOT_TOKEN=""
 while [[ -z "$BOT_TOKEN" ]]; do
-  read -p "请输入 Telegram Bot Token (必填): " BOT_TOKEN
+  read -p "👉 请输入 Telegram Bot Token (必填): " BOT_TOKEN < /dev/tty
 done
 
 CHAT_ID=""
 while [[ -z "$CHAT_ID" ]]; do
-  read -p "请输入 Telegram Chat ID (必填): " CHAT_ID
+  read -p "👉 请输入 Telegram Chat ID (必填): " CHAT_ID < /dev/tty
 done
 
 # 2. 生成主检测脚本
