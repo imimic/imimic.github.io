@@ -46,12 +46,11 @@ curl -L -o "$TMP_DIR/shadow-tls.zip" "https://raw.githubusercontent.com/imimic/i
 echo ">> 正在解压并赋予权限..."
 unzip -o "$TMP_DIR/shadow-tls.zip" -d "$TMP_DIR" >/dev/null
 
-# 假设压缩包内有二进制文件，将其移动到 /usr/bin/shadows-tls 以匹配 systemd 配置
-# 这里使用 find 获取解压出来的第一个文件
+# 提取并重命名二进制文件，移动到 /usr/local/bin 目录
 BINARY_FILE=$(find "$TMP_DIR" -type f ! -name "*.zip" | head -n 1)
 if [ -n "$BINARY_FILE" ]; then
-    mv "$BINARY_FILE" /usr/bin/shadows-tls
-    chmod +x /usr/bin/shadows-tls
+    mv "$BINARY_FILE" /usr/local/bin/shadow-tls
+    chmod +x /usr/local/bin/shadow-tls
 else
     echo "错误：下载的压缩包内没有找到可执行文件！"
     rm -rf "$TMP_DIR"
@@ -64,17 +63,18 @@ rm -rf "$TMP_DIR"
 # 步骤 3：建立 systemd 服务文件和相应文件夹
 # ------------------------------------------
 echo ">> 正在配置工作目录和 systemd 服务..."
-mkdir -p /var/lib/shadows-tls
-mkdir -p /etc/shadows-tls
+mkdir -p /var/lib/shadow-tls
+mkdir -p /etc/shadow-tls
 
 # 使用 'EOF' 防止 bash 解析 $MAINPID
-cat << 'EOF' > /etc/systemd/system/shadows-tls.service
+# 注意这里的 ExecStart 路径已更新为 /usr/local/bin/shadow-tls
+cat << 'EOF' > /etc/systemd/system/shadow-tls.service
 [Unit]
-Description=shadows-tls service
+Description=shadow-tls service
 After=network-online.target
 
 [Service]
-ExecStart=/usr/bin/shadows-tls -D /var/lib/shadows-tls -C /etc/shadows-tls run
+ExecStart=/usr/local/bin/shadow-tls -D /var/lib/shadow-tls -C /etc/shadow-tls run
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=on-failure
 LimitNOFILE=infinity
@@ -89,7 +89,7 @@ EOF
 echo ">> 正在生成 JSON 配置文件..."
 
 # 这里使用 EOF (不加引号)，允许 bash 把 $SNELL_PORT 变量替换进 json 里
-cat << EOF > /etc/shadows-tls/config.json
+cat << EOF > /etc/shadow-tls/config.json
 {
   "log": {
     "disabled": true,
@@ -149,20 +149,20 @@ EOF
 # ------------------------------------------
 # 步骤 5：启动服务并设置开机自启
 # ------------------------------------------
-echo ">> 正在启动 shadows-tls 服务并设置开机自启..."
+echo ">> 正在启动 shadow-tls 服务并设置开机自启..."
 systemctl daemon-reload
-systemctl enable --now shadows-tls
+systemctl enable --now shadow-tls
 
 # 检查服务运行状态
-if systemctl is-active --quiet shadows-tls; then
+if systemctl is-active --quiet shadow-tls; then
     echo "======================================================="
-    echo "部署成功！shadows-tls 服务正在运行。"
+    echo "部署成功！shadow-tls 服务正在运行。"
     echo "监听端口: 8443"
     echo "转发至 Snell 端口: $SNELL_PORT"
     echo "======================================================="
 else
     echo "======================================================="
-    echo "部署完成，但 shadows-tls 服务未能成功启动。"
-    echo "请使用命令查看报错原因: journalctl -u shadows-tls -f"
+    echo "部署完成，但 shadow-tls 服务未能成功启动。"
+    echo "请使用命令查看报错原因: journalctl -u shadow-tls -f"
     echo "======================================================="
 fi
