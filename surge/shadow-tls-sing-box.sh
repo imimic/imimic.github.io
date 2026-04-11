@@ -74,6 +74,8 @@ Description=shadow-tls service
 After=network-online.target
 
 [Service]
+Type=simple
+User=root
 ExecStart=/usr/local/bin/shadow-tls -D /var/lib/shadow-tls -C /etc/shadow-tls run
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=on-failure
