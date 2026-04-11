@@ -51,7 +51,7 @@ echo "⏳ 正在生成 Systemd 守护进程配置..."
 
 cat > "$SERVICE_FILE" << EOF
 [Unit]
-Description=Shadow-TLS Server Service
+Description=Shadow-TLS Server
 After=network-online.target
 Wants=network-online.target
 
