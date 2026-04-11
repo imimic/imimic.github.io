@@ -133,8 +133,7 @@ cat << EOF > /etc/shadow-tls/config.json
       "type": "direct",
       "tag": "snell",
       "override_address": "127.0.0.1",
-      "override_port": $SNELL_PORT,
-      "tcp_fast_open": true
+      "override_port": $SNELL_PORT
     }
   ],
   "route": {
