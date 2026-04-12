@@ -14,3 +14,4 @@ DOMAIN-SUFFIX,formula1.com
 # > Media
 DOMAIN-SUFFIX,akamaihd.net
 DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,fastly-edge.com
