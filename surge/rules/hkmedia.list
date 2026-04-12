@@ -1,3 +1,20 @@
+# > Netflix
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,nflximg.com
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,nflxvideo.net
+IP-CIDR,23.246.0.0/18,no-resolve
+IP-CIDR,198.38.96.0/19,no-resolve
+IP-CIDR,203.198.0.0/20,no-resolve
+IP-CIDR,203.198.80.0/21,no-resolve
+IP-CIDR,218.102.32.0/19,no-resolve
+IP-CIDR,219.76.0.0/17,no-resolve
+IP-CIDR6,2620:10c:7000::/44,no-resolve
+IP-CIDR6,2a00:86c0::/32,no-resolve
 # > Disney+
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,braze.com
@@ -6,7 +23,6 @@ DOMAIN-SUFFIX,disney-plus.net
 DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,disney.my.sentry.io
-DOMAIN-SUFFIX,disneynow.com
 DOMAIN-SUFFIX,disneystreaming.com
 DOMAIN-SUFFIX,cdn.registerdisney.go.com
 # > HBO / Max
@@ -15,14 +31,11 @@ DOMAIN-SUFFIX,cinemax.com
 DOMAIN-SUFFIX,discomax.com
 DOMAIN-SUFFIX,h264.io
 DOMAIN-SUFFIX,hbo.com
-DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hbomaxcdn.com
-DOMAIN-SUFFIX,hbonow.com
 DOMAIN-SUFFIX,litix.io
 DOMAIN-SUFFIX,max.com
-DOMAIN-SUFFIX,maxgo.com
-# > Amazon Prime Video:
+# > Amazon Prime Video
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,d22qjgkvxw22r6.cloudfront.net
 DOMAIN,d25xi40x97liuc.cloudfront.net
@@ -32,9 +45,7 @@ DOMAIN,msh.amazon.co.uk
 DOMAIN-SUFFIX,a2z.com
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
-DOMAIN-SUFFIX,akamaihd.net
 DOMAIN-SUFFIX,amazonvideo.com
-DOMAIN-SUFFIX,fastly-edge.com
 DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,pv-cdn.net
