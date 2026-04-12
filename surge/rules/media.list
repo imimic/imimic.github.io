@@ -59,12 +59,10 @@ DOMAIN-SUFFIX,a2z.com
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN-SUFFIX,amazonvideo.com
-DOMAIN-SUFFIX,fastly-edge.com
 DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-SUFFIX,ssl-images-amazon.com
-DOMAIN-KEYWORD,amazon.akamai
 # > Bahamut Anime
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
