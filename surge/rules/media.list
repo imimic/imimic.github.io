@@ -48,7 +48,7 @@ DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hbomaxcdn.com
 DOMAIN-SUFFIX,litix.io
 DOMAIN-SUFFIX,max.com
-# > Amazon Prime Video:
+# > Amazon Prime Video
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,d22qjgkvxw22r6.cloudfront.net
 DOMAIN,d25xi40x97liuc.cloudfront.net
@@ -58,7 +58,6 @@ DOMAIN,msh.amazon.co.uk
 DOMAIN-SUFFIX,a2z.com
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
-DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,fastly-edge.com
 DOMAIN-SUFFIX,media-amazon.com
