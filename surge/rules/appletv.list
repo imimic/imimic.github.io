@@ -11,5 +11,3 @@ DOMAIN,play-edge.itunes.apple.com
 DOMAIN,tv.applemusic.com
 DOMAIN,uts-api.itunes.apple.com
 DOMAIN-SUFFIX,tv.apple.com
-# > Amazon Prime Video
-DOMAIN-KEYWORD,amazon.akamai
