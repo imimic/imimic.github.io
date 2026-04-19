@@ -46,6 +46,3 @@ IP-ASN,399358,no-resolve
 # > Formula1
 DOMAIN-SUFFIX,bitmovin.com
 DOMAIN-SUFFIX,formula1.com
-# > Media
-DOMAIN-SUFFIX,akamaized.net
-DOMAIN-SUFFIX,fastly-edge.com
