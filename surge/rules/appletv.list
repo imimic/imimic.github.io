@@ -11,7 +11,3 @@ DOMAIN-SUFFIX,tv.apple.com
 # > Formula1
 DOMAIN-SUFFIX,bitmovin.com
 DOMAIN-SUFFIX,formula1.com
-# > Media
-DOMAIN-SUFFIX,akamaihd.net
-DOMAIN-SUFFIX,akamaized.net
-DOMAIN-SUFFIX,fastly-edge.com
