@@ -50,6 +50,7 @@ DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-SUFFIX,ssl-images-amazon.com
+DOMAIN-KEYWORD,amazon.akamaized.net
 # > Bahamut Anime
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
