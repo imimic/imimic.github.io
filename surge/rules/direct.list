@@ -18,9 +18,8 @@ DOMAIN-SUFFIX,mtyun.com
 DOMAIN-SUFFIX,neixin.cn
 DOMAIN-SUFFIX,sankuai.com
 # > Media
-DOMAIN,mlc.once.im
-DOMAIN,smart.uhdnow.com
-DOMAIN,smart2.uhdnow.com
+DOMAIN-SUFFIX,once.im
+DOMAIN-SUFFIX,uhdnow.com
 DOMAIN-SUFFIX,uhdnow.online
 DOMAIN-SUFFIX,xbtest.com
 DOMAIN-SUFFIX,keeflys.com
