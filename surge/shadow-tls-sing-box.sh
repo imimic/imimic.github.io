@@ -63,7 +63,6 @@ rm -rf "$TMP_DIR"
 # 步骤 3：建立 systemd 服务文件和相应文件夹
 # ------------------------------------------
 echo ">> 正在配置工作目录和 systemd 服务..."
-mkdir -p /var/lib/shadow-tls
 mkdir -p /etc/shadow-tls
 
 # 使用 'EOF' 防止 bash 解析 $MAINPID
@@ -76,7 +75,7 @@ After=network-online.target
 [Service]
 Type=simple
 User=root
-ExecStart=/usr/local/bin/shadow-tls -D /var/lib/shadow-tls -C /etc/shadow-tls run
+ExecStart=/usr/local/bin/shadow-tls -C /etc/shadow-tls run
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=on-failure
 LimitNOFILE=infinity
