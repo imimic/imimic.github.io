@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,us-west-2.amazonaws.com
 IP-CIDR,23.246.0.0/18,no-resolve
 IP-CIDR,198.38.96.0/19,no-resolve
 IP-CIDR,203.198.0.0/20,no-resolve
