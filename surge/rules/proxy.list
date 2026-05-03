@@ -4,13 +4,11 @@ DOMAIN-SUFFIX,112788.xyz
 DOMAIN-SUFFIX,omimic.com
 DOMAIN-SUFFIX,timeweb.cloud
 # > Apple Intelligence
-DOMAIN-SUFFIX,push.apple.com
 DOMAIN,apple-relay.akamaized.net
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,apple-relay.mask.apple-dns.net
-DOMAIN,gspe1-ssl.ls.apple.com
 # > Anthropic
 DOMAIN,anthropic.com.cdn.cloudflare.net
 DOMAIN,anthropic.auth0.com
