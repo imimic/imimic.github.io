@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-SUFFIX,bitmovin.com
 DOMAIN-SUFFIX,formula1.com
 # > Netflix
+DOMAIN,netflix.com.edgesuite.net
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
