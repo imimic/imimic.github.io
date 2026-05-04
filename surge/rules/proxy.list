@@ -3,6 +3,8 @@ DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,112788.xyz
 DOMAIN-SUFFIX,omimic.com
 DOMAIN-SUFFIX,timeweb.cloud
+IP-CIDR,1.1.1.1/32,no-resolve
+IP-CIDR,1.0.0.1/32,no-resolve
 # > Apple Intelligence
 DOMAIN,apple-relay.akamaized.net
 DOMAIN,apple-relay.apple.com
