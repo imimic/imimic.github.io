@@ -5,10 +5,12 @@ DOMAIN-KEYWORD,synology
 DOMAIN-SUFFIX,assrt.net
 DOMAIN-SUFFIX,zimuku.org
 DOMAIN-SUFFIX,istatmenus.app
+DOMAIN-SUFFIX,tencentyun.com
 DOMAIN-SUFFIX,letsencrypt.org
 DOMAIN-SUFFIX,quickconnect.cn
 DOMAIN-SUFFIX,quickconnect.to
 # China
+DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,jddebug.com
 DOMAIN-SUFFIX,maoyan.com
