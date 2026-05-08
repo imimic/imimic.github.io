@@ -100,7 +100,7 @@ cat << EOF > /etc/shadow-tls/config.json
   "dns": {
     "servers": [
       {
-        "address": "1.1.1.1"
+        "address": "8.8.8.8"
       }
     ]
   },
