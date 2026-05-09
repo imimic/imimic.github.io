@@ -54,7 +54,6 @@ stream {
         listen 443 reuseport;
         ssl_preread on;
         tcp_nodelay on;
-        proxy_buffer_size 256k;
         proxy_connect_timeout 5s;
         proxy_timeout 3600s;
         proxy_pass $ssl_preread_server_name:443;
