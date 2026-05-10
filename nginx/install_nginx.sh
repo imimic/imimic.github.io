@@ -43,19 +43,16 @@ pid       /var/run/nginx.pid;
 
 events {
     worker_connections 1024;
-    multi_accept on;
-    use epoll;
 }
 
 stream {
     resolver 8.8.8.8 8.8.4.4 valid=60s ipv6=off;
 
     server {
-        listen 443 reuseport;
+        listen 443;
         ssl_preread on;
-        tcp_nodelay on;
         proxy_connect_timeout 5s;
-        proxy_timeout 3600s;
+        proxy_socket_keepalive on;
         proxy_pass $ssl_preread_server_name:443;
     }
 }
