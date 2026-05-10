@@ -20,8 +20,9 @@ DOMAIN-SUFFIX,mtyun.com
 DOMAIN-SUFFIX,neixin.cn
 DOMAIN-SUFFIX,sankuai.com
 # > Media
+DOMAIN,smart.uhdnow.com
+DOMAIN,smart2.uhdnow.com
 DOMAIN-SUFFIX,dangsfly.com
 DOMAIN-SUFFIX,keeflys.com
 DOMAIN-SUFFIX,once.im
-DOMAIN-SUFFIX,uhdnow.com
-DOMAIN-SUFFIX,uhdnow.online
+DOMAIN-KEYWORD,smart-vod
