@@ -1,3 +1,7 @@
+# > UHD Emby
+DOMAIN,v1.uhdnow.com
+DOMAIN,global.uhdnow.com
+DOMAIN-KEYWORD,v1-vod
 # > Netflix
 DOMAIN,netflix.com.edgesuite.net
 DOMAIN-SUFFIX,fast.com
