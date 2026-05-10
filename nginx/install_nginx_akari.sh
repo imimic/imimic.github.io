@@ -43,8 +43,6 @@ pid       /var/run/nginx.pid;
 
 events {
     worker_connections 1024;
-    multi_accept on;
-    use epoll;
 }
 
 stream {
@@ -53,58 +51,21 @@ stream {
     map $ssl_preread_server_name $target_backend {
         hostnames;
 
-        # > Netflix
-        # .fast.com                   163.53.18.252:443;
-        # .netflix.com                163.53.18.252:443;
-        # .netflix.net                163.53.18.252:443;
-        # .nflxext.com                163.53.18.252:443;
-        # .nflximg.com                163.53.18.252:443;
-        # .nflximg.net                163.53.18.252:443;
-        # .nflxso.net                 163.53.18.252:443;
-        # .nflxvideo.net              163.53.18.252:443;
-
-        # > Disney+
-        # .bamgrid.com                163.53.18.252:443;
-        # .disney-plus.net            163.53.18.252:443;
-        # .disneyplus.com             163.53.18.252:443;
-        # .dssott.com                 163.53.18.252:443;
-        # .disneystreaming.com        163.53.18.252:443;
-        # .cdn.registerdisney.go.com  163.53.18.252:443;
-
-        # > HBO / Max
-        # .discomax.com               163.53.18.252:443;
-        # .hbo.com                    163.53.18.252:443;
-        # .hbogo.com                  163.53.18.252:443;
-        # .hbomax.com                 163.53.18.252:443;
-        # .hbomaxcdn.com              163.53.18.252:443;
-        # .max.com                    163.53.18.252:443;
-
         # > Hotstar
         .hotstar.com                185.36.192.252:443;
         .hotstarext.com             185.36.192.252:443;
-
-        # > OpenAI / Claude
-        .openai.com                 188.253.6.252:443;
-        .chatgpt.com                188.253.6.252:443;
-        .sora.com                   188.253.6.252:443;
-        .oaistatic.com              188.253.6.252:443;
-        .oaiusercontent.com         188.253.6.252:443;
-        .anthropic.com              188.253.6.252:443;
-        .claude.ai                  188.253.6.252:443;
 
         default                     $ssl_preread_server_name:443;
 
     }
 
     server {
-        listen 443 reuseport;
+        listen 443;
         ssl_preread on;
-        tcp_nodelay on;
         proxy_connect_timeout 5s; 
-        proxy_timeout 3600s;
+        proxy_socket_keepalive on;
         proxy_pass $target_backend;
     }
-
 }
 EOF
 
