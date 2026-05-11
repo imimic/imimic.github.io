@@ -46,7 +46,7 @@ events {
 }
 
 stream {
-    resolver 163.53.18.252 valid=60s;
+    resolver 163.53.18.252 valid=60s ipv6=off;
 
     map $ssl_preread_server_name $target_backend {
         hostnames;
