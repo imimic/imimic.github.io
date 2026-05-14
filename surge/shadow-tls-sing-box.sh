@@ -75,10 +75,11 @@ After=network-online.target
 [Service]
 Type=simple
 User=root
+LimitNOFILE=infinity
 ExecStart=/usr/local/bin/shadow-tls -C /etc/shadow-tls run
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=on-failure
-LimitNOFILE=infinity
+RestartSec=5s
 
 [Install]
 WantedBy=multi-user.target
