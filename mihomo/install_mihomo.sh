@@ -59,11 +59,12 @@ After=network-online.target
 [Service]
 Type=simple
 User=root
+LimitNOFILE=infinity
+ExecStartPre=/usr/bin/sleep 5s
 ExecStart=/usr/local/bin/mihomo -d /etc/mihomo
 ExecReload=/bin/kill -HUP $MAINPID
-Restart=on-failure
-RestartSec=10s
-LimitNOFILE=infinity
+Restart=always
+RestartSec=5s
 
 [Install]
 WantedBy=multi-user.target
