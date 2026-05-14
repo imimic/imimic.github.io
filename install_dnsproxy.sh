@@ -120,6 +120,7 @@ cat <<EOF > /etc/systemd/system/dnsproxy.service
 [Unit]
 Description=DNS Proxy Service
 After=network-online.target
+Wants=network-online.target
 
 [Service]
 Type=simple
@@ -127,7 +128,7 @@ User=root
 LimitNOFILE=infinity
 ExecStart=/usr/local/bin/dnsproxy --config-path=/etc/dnsproxy/config.yaml
 Restart=on-failure
-RestartSec=10s
+RestartSec=5s
 
 [Install]
 WantedBy=multi-user.target
