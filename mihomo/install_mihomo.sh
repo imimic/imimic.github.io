@@ -55,6 +55,7 @@ cat > /etc/systemd/system/mihomo.service << 'EOF'
 [Unit]
 Description=mihomo service
 After=network-online.target
+Wants=network-online.target
 
 [Service]
 Type=simple
