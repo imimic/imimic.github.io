@@ -46,10 +46,20 @@ events {
 }
 
 stream {
-    resolver 163.53.18.252 valid=60s ipv6=off;
+    resolver 163.53.18.252 valid=60s;
 
     map $ssl_preread_server_name $target_backend {
         hostnames;
+
+        # > Netflix
+        .fast.com                   163.53.18.252:443;
+        .netflix.com                163.53.18.252:443;
+        .netflix.net                163.53.18.252:443;
+        .nflxext.com                163.53.18.252:443;
+        .nflximg.com                163.53.18.252:443;
+        .nflximg.net                163.53.18.252:443;
+        .nflxso.net                 163.53.18.252:443;
+        .nflxvideo.net              163.53.18.252:443;
 
         # > Hotstar
         .hotstar.com                185.36.192.252:443;
@@ -61,6 +71,7 @@ stream {
 
     server {
         listen 443;
+        listen [::]:443;
         ssl_preread on;
         proxy_connect_timeout 5s; 
         proxy_socket_keepalive on;
