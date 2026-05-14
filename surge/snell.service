@@ -9,7 +9,7 @@ User=root
 LimitNOFILE=infinity
 ExecStart=/usr/local/bin/snell-server -c /etc/snell-server.conf
 Restart=on-failure
-RestartSec=10s
+RestartSec=5s
 
 [Install]
 WantedBy=multi-user.target
