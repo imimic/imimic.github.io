@@ -53,11 +53,11 @@ After=network-online.target
 [Service]
 Type=simple
 User=root
+LimitNOFILE=infinity
 ExecStart=/usr/local/bin/sing-box run -c /etc/sing-box/config.json
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=on-failure
-RestartSec=10s
-LimitNOFILE=infinity
+RestartSec=5s
 
 [Install]
 WantedBy=multi-user.target
