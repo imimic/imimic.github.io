@@ -62,7 +62,7 @@ LimitNOFILE=infinity
 Environment="MONOIO_FORCE_LEGACY_DRIVER=1"
 ExecStart=/usr/local/bin/shadow-tls --v3 --strict server --listen 0.0.0.0:8443 --server 127.0.0.1:${SNELL_PORT} --tls gateway.icloud.com --password mimic365
 Restart=on-failure
-RestartSec=10s
+RestartSec=5s
 
 [Install]
 WantedBy=multi-user.target
