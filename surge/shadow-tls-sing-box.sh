@@ -71,6 +71,7 @@ cat << 'EOF' > /etc/systemd/system/shadow-tls.service
 [Unit]
 Description=shadow-tls service
 After=network-online.target
+Wants=network-online.target
 
 [Service]
 Type=simple
