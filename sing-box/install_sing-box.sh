@@ -57,6 +57,7 @@ cat > /etc/systemd/system/sing-box.service << 'EOF'
 [Unit]
 Description=sing-box service
 After=network-online.target
+Wants=network-online.target
 
 [Service]
 Type=simple
