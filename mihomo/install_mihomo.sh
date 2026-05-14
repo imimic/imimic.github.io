@@ -63,7 +63,7 @@ LimitNOFILE=infinity
 ExecStartPre=/usr/bin/sleep 5s
 ExecStart=/usr/local/bin/mihomo -d /etc/mihomo
 ExecReload=/bin/kill -HUP $MAINPID
-Restart=always
+Restart=on-failure
 RestartSec=5s
 
 [Install]
