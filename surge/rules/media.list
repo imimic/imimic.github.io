@@ -1,7 +1,8 @@
 # > UHD Emby
-DOMAIN,v1.uhdnow.com
-DOMAIN,global.uhdnow.com
+DOMAIN-SUFFIX,once.im
+DOMAIN-SUFFIX,uhdnow.com
 DOMAIN-KEYWORD,v1-vod
+DOMAIN-KEYWORD,smart-vod
 # > AppleTV
 DOMAIN,apple-tv-plus-press.apple.com
 DOMAIN,hls-amt.itunes.apple.com
