@@ -12,7 +12,5 @@ DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-SUFFIX,bitmovin.com
 DOMAIN-SUFFIX,formula1.com
 # > UHD Emby
-DOMAIN-SUFFIX,once.im
 DOMAIN-SUFFIX,uhdnow.com
 DOMAIN-KEYWORD,v1-vod
-DOMAIN-KEYWORD,smart-vod
