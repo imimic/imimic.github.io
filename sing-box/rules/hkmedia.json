@@ -91,9 +91,9 @@
         "viu.tv",
         "viu.com"
       ],
-      "domain_keyword": [
-        "apiproxy-",
-        "pushy-prod-nlb"
+      "domain_regex": [
+        "(^|\\.)apiproxy-.+\\.amazonaws\\.com$",
+        "(^|\\.)pushy-prod-nlb.+\\.amazonaws\\.com$"
       ]
     }
   ]
