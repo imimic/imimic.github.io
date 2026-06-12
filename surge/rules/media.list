@@ -23,9 +23,6 @@ DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
-DOMAIN-KEYWORD,apiproxy-
-DOMAIN-KEYWORD,ichnaea-
-DOMAIN-KEYWORD,pushy-prod-
 IP-CIDR,1.1.1.1/32,no-resolve
 # > Disney+
 DOMAIN-SUFFIX,bamgrid.com
