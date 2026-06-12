@@ -1,5 +1,4 @@
 # > Netflix
-DOMAIN,netflix.com.edgesuite.net
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
@@ -8,14 +7,3 @@ DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
-DOMAIN-KEYWORD,apiproxy-
-DOMAIN-KEYWORD,ichnaea-
-DOMAIN-KEYWORD,pushy-prod-
-IP-CIDR,23.246.0.0/18,no-resolve
-IP-CIDR,198.38.96.0/19,no-resolve
-IP-CIDR,203.198.0.0/20,no-resolve
-IP-CIDR,203.198.80.0/21,no-resolve
-IP-CIDR,218.102.32.0/19,no-resolve
-IP-CIDR,219.76.0.0/17,no-resolve
-IP-CIDR6,2620:10c:7000::/44,no-resolve
-IP-CIDR6,2a00:86c0::/32,no-resolve
