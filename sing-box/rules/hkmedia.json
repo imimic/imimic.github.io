@@ -14,8 +14,6 @@
         "d3o7oi00quuwqu.cloudfront.net"
       ],
       "domain_suffix": [
-        "us-east-1.amazonaws.com",
-        "us-west-2.amazonaws.com",
         "bahamut.akamaized.net",
         "bahamut.com.tw",
         "gamer.com.tw",
@@ -92,6 +90,10 @@
         "tvbc.com.cn",
         "viu.tv",
         "viu.com"
+      ],
+      "domain_keyword": [
+        "apiproxy-",
+        "pushy-prod-nlb"
       ]
     }
   ]
