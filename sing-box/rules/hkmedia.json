@@ -93,7 +93,8 @@
       ],
       "domain_regex": [
         "(^|\\.)apiproxy-.+\\.amazonaws\\.com$",
-        "(^|\\.)pushy-prod-nlb.+\\.amazonaws\\.com$"
+        "(^|\\.)ichnaea-.+\\.amazonaws\\.com$",
+        "(^|\\.)pushy-prod-.+\\.amazonaws\\.com$"
       ]
     }
   ]
