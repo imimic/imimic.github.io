@@ -1,5 +1,4 @@
 # > Netflix
-DOMAIN,netflix.com.edgesuite.net
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
@@ -8,9 +7,6 @@ DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
-DOMAIN-KEYWORD,apiproxy-
-DOMAIN-KEYWORD,ichnaea-
-DOMAIN-KEYWORD,pushy-prod-
 # > Disney+
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,braze.com
