@@ -1,4 +1,6 @@
 # > Netflix
+DOMAIN,e13252.dscg.akamaiedge.net
+DOMAIN,netflix.com.edgesuite.net
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
@@ -7,3 +9,6 @@ DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-KEYWORD,apiproxy-
+DOMAIN-KEYWORD,ichnaea-
+DOMAIN-KEYWORD,pushy-prod-
