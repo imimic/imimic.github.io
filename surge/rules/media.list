@@ -25,6 +25,9 @@ DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-KEYWORD,apiproxy-
+DOMAIN-KEYWORD,ichnaea-
+DOMAIN-KEYWORD,pushy-prod-
 IP-CIDR,1.1.1.1/32,no-resolve
 # > Disney+
 DOMAIN-SUFFIX,bamgrid.com
@@ -57,10 +60,12 @@ DOMAIN,d25xi40x97liuc.cloudfront.net
 DOMAIN,d27xxe7juh1us6.cloudfront.net
 DOMAIN,dmqdd6hw24ucf.cloudfront.net
 DOMAIN,msh.amazon.co.uk
+DOMAIN,static.siege-amazon.com
 DOMAIN-SUFFIX,a2z.com
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,amazonprimevideos.com
 DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,pv-cdn.net
