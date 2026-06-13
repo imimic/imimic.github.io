@@ -91,10 +91,10 @@
         "viu.tv",
         "viu.com"
       ],
-      "domain_regex": [
-        "(^|\\.)apiproxy-.+\\.amazonaws\\.com$",
-        "(^|\\.)ichnaea-.+\\.amazonaws\\.com$",
-        "(^|\\.)pushy-prod-.+\\.amazonaws\\.com$"
+      "domain_keyword": [
+        "apiproxy-",
+        "ichnaea-",
+        "pushy-prod-"
       ]
     }
   ]
