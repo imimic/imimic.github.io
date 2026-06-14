@@ -3,6 +3,22 @@ DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,112788.xyz
 DOMAIN-SUFFIX,omimic.com
 DOMAIN-SUFFIX,timeweb.cloud
+# > DNS Leak
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,browserleaks.org
+DOMAIN-SUFFIX,dnsleak.com
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN-SUFFIX,expressvpn.com
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ipcheck.ing
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,nordvpn.com
+DOMAIN-SUFFIX,perfect-privacy.com
+DOMAIN-SUFFIX,surfshark.com
+DOMAIN-SUFFIX,surfsharkdns.com
+DOMAIN-SUFFIX,vpnunlimited.com
+DOMAIN-SUFFIX,wher.net
+DOMAIN-SUFFIX,whrq.net
 # > Apple Intelligence
 DOMAIN,apple-relay.akamaized.net
 DOMAIN,apple-relay.apple.com
