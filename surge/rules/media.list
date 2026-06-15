@@ -13,7 +13,6 @@ DOMAIN-SUFFIX,bitmovin.com
 DOMAIN-SUFFIX,formula1.com
 # > UHD Emby
 DOMAIN-SUFFIX,uhdnow.com
-DOMAIN-KEYWORD,v1-vod
 # > Netflix
 DOMAIN,e13252.dscg.akamaiedge.net
 DOMAIN,netflix.com.edgesuite.net
