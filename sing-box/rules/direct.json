@@ -4,16 +4,18 @@
     {
       "domain": "v4.plex.tv",
       "domain_suffix": [
-        "once.im",
-        "uhdnow.com",
         "assrt.net",
         "zimuku.org",
         "keeflys.com",
-        "synology.com",
+        "dangsfly.com",
+        "istatmenus.app",
+        "tencentyun.com",
+        "letsencrypt.org",
         "quickconnect.cn",
-        "quickconnect.to",
-        "synologyupdate.com",
-        "synologydownload.com"
+        "quickconnect.to"
+      ],
+      "domain_keyword": [
+        "synology"
       ]
     }
   ]
