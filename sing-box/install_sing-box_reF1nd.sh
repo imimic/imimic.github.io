@@ -13,22 +13,29 @@ REPO="reF1nd/sing-box-releases"
 apt-get update
 apt-get install -y curl wget tar jq
 
-# ================= 新增：版本类型选择菜单 =================
+# ================= 修复版：版本类型选择菜单 =================
 echo "------------------------------------------------------"
 echo "请选择要安装的 sing-box 版本类型："
 echo "1) Latest Release (稳定版)"
-echo "2) Pre-release / Latest (包含预发布版/最新测试版)"
+echo "2) Pre-release / Latest (最新测试版/预发布版)"
 echo "------------------------------------------------------"
-read -p "请输入数字 [1-2] (默认 1): " TYPE_CHOICE
+# 关键修复：增加 < /dev/tty 强制从终端读取键盘输入，防止 curl 管道穿透
+read -p "请输入数字 [1-2] (默认 1): " TYPE_CHOICE < /dev/tty
 [ -z "$TYPE_CHOICE" ] && TYPE_CHOICE=1
 
 echo "开始从自定义源 (${REPO}) 获取版本信息..."
 
 # 3. 获取目标仓库的 Release 数据
 if [ "$TYPE_CHOICE" == "2" ]; then
-    echo "正在检索最新版本（含 Pre-release）..."
-    # 获取 release 列表的第一项（通常是最新的，无论是不是 pre-release）
-    RELEASE_JSON=$(curl -s "https://api.github.com/repos/${REPO}/releases" | jq '.[0]')
+    echo "正在检索最新预发布版 (Pre-release)..."
+    # 获取完整的 release 列表，并精准过滤出第一个 prerelease 属性为 true 的对象
+    RELEASE_JSON=$(curl -s "https://api.github.com/repos/${REPO}/releases" | jq '[.[] | select(.prerelease == true)][0]')
+    
+    # 兜底：如果该仓库没有标记为 prerelease 的版本，则退回获取最新发布的版本
+    if [ -z "$RELEASE_JSON" ] || [ "$RELEASE_JSON" == "null" ]; then
+        echo "提示: 未找到特定标记的 Pre-release，将获取最新发布项..."
+        RELEASE_JSON=$(curl -s "https://api.github.com/repos/${REPO}/releases" | jq '.[0]')
+    fi
 else
     echo "正在检索最新稳定版 (Release)..."
     RELEASE_JSON=$(curl -s "https://api.github.com/repos/${REPO}/releases/latest")
