@@ -2,7 +2,6 @@
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,112788.xyz
 DOMAIN-SUFFIX,omimic.com
-DOMAIN-SUFFIX,timeweb.cloud
 # > DNS Leak
 DOMAIN-SUFFIX,browserleaks.com
 DOMAIN-SUFFIX,browserleaks.net
