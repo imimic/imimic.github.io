@@ -1,0 +1,31 @@
+payload:
+    # > Services
+    - +.plex.tv
+    - +.112788.xyz
+    - +.omimic.com
+
+    # > DNS Leak
+    - +.browserleaks.com
+    - +.browserleaks.net
+    - +.browserleaks.org
+    - +.dnsleak.com
+    - +.dnsleaktest.com
+    - +.expressvpn.com
+    - +.ip-api.com
+    - +.ipcheck.ing
+    - +.ipleak.net
+    - +.net.coffee
+    - +.nordvpn.com
+    - +.perfect-privacy.com
+    - +.surfshark.com
+    - +.surfsharkdns.com
+    - +.vpnunlimited.com
+    - +.wher.net
+    - +.whrq.net
+
+    # > Apple Intelligence
+    - apple-relay.akamaized.net
+    - apple-relay.apple.com
+    - apple-relay.cloudflare.com
+    - apple-relay.fastly-edge.com
+    - apple-relay.mask.apple-dns.net
