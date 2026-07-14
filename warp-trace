@@ -1,0 +1,90 @@
+#!/usr/bin/env bash
+#
+# warp-trace.sh — 检测代理出口的 Cloudflare WARP 状态（默认 / IPv4 / IPv6）
+#
+# 说明：socks5h 下域名由代理远端解析，curl 的 -4/-6/--resolve 均不影响
+#       出站协议，因此用 IP 字面量作为目标来强制 IPv4 / IPv6。
+#
+set -euo pipefail
+
+PROXY="socks5h://127.0.0.1:20001"
+
+URL_DEFAULT="https://www.cloudflare.com/cdn-cgi/trace"
+URL_V4="https://1.1.1.1/cdn-cgi/trace"
+URL_V6="https://[2606:4700:4700::1111]/cdn-cgi/trace"
+
+# ── 颜色（仅在终端下启用）──────────────────────────────────────────
+if [[ -t 1 ]]; then
+  BOLD=$'\e[1m'; DIM=$'\e[2m'; RESET=$'\e[0m'
+  CYAN=$'\e[36m'; GREEN=$'\e[32m'; YELLOW=$'\e[33m'; RED=$'\e[31m'
+else
+  BOLD='' DIM='' RESET='' CYAN='' GREEN='' YELLOW='' RED=''
+fi
+
+# ── 中英混排对齐：按显示宽度计算（中文占 2 列，颜色码占 0 列）──────
+str_width() {
+  local s a n
+  s=$(sed 's/\x1b\[[0-9;]*m//g' <<< "$1")            # 去掉 ANSI 颜色码
+  a=$(printf '%s' "$s" | LC_ALL=C tr -d  '\200-\377' | wc -c)  # ASCII 字节数
+  n=$(printf '%s' "$s" | LC_ALL=C tr -cd '\200-\377' | wc -c)  # 非 ASCII 字节数
+  echo $(( a + n / 3 * 2 ))                          # 中文 3 字节 → 2 列
+}
+
+pad() { # pad <文本> <目标显示宽度>
+  local s=$1 target=$2 w
+  w=$(str_width "$s")
+  printf '%s%*s' "$s" $(( target > w ? target - w : 0 )) ''
+}
+
+# 表格列宽
+W1=12   # 左列
+W2=48   # 右列
+
+row()  { printf '│ %s │ %s │\n' "$(pad "$1" $W1)" "$(pad "$2" $W2)"; }
+line() { printf '%s%s%s%s%s\n' "$1" \
+           "$(printf '─%.0s' $(seq $((W1 + 2))))" "$2" \
+           "$(printf '─%.0s' $(seq $((W2 + 2))))" "$3"; }
+
+# ── 请求 trace 并输出一组表格行 ────────────────────────────────────
+show_trace() {
+  local title=$1 url=$2 result
+  if ! result=$(curl -fsS --connect-timeout 5 --max-time 15 \
+                     --proxy "$PROXY" "$url" 2>/dev/null) || [[ -z $result ]]; then
+    row "$title" "${RED}连接失败或请求超时${RESET}"
+    return
+  fi
+
+  local ip loc colo warp warp_color
+  ip=$(sed   -n 's/^ip=//p'   <<< "$result")
+  loc=$(sed  -n 's/^loc=//p'  <<< "$result")
+  colo=$(sed -n 's/^colo=//p' <<< "$result")
+  warp=$(sed -n 's/^warp=//p' <<< "$result")
+
+  case $warp in
+    on|plus) warp_color=$GREEN  ;;
+    off)     warp_color=$YELLOW ;;
+    *)       warp_color=$DIM    ;;
+  esac
+
+  row "$title" "${CYAN}${ip:-未知}${RESET}"
+  row "" "地区: $(pad "${loc:-未知}" 4)  节点: $(pad "${colo:-未知}" 5)  WARP: ${warp_color}${warp:-未知}${RESET}"
+}
+
+# ── 主流程 ─────────────────────────────────────────────────────────
+main() {
+  echo
+  echo "  ${BOLD}${CYAN}Cloudflare WARP 出口检测${RESET}  ${DIM}(代理: $PROXY)${RESET}"
+  echo
+  line '┌' '┬' '┐'
+  row "${BOLD}测试项目${RESET}" "${BOLD}WARP 出口信息${RESET}"
+  line '├' '┼' '┤'
+  show_trace "默认出口" "$URL_DEFAULT"
+  line '├' '┼' '┤'
+  show_trace "IPv4 出口" "$URL_V4"
+  line '├' '┼' '┤'
+  show_trace "IPv6 出口" "$URL_V6"
+  line '└' '┴' '┘'
+  echo
+}
+
+main "$@"
