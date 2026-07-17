@@ -24,4 +24,3 @@ DOMAIN-SUFFIX,dangsfly.com
 DOMAIN-SUFFIX,keeflys.com
 # > Tailscale
 DOMAIN,controlplane.tailscale.com
-IP-CIDR,100.64.0.0/10,no-resolve
