@@ -2,6 +2,9 @@
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,112788.xyz
 DOMAIN-SUFFIX,omimic.com
+# > Tailscale
+DOMAIN-SUFFIX,tailscale.com
+DOMAIN-SUFFIX,tailscale.io
 # > DNS Leak
 DOMAIN-SUFFIX,browserleaks.com
 DOMAIN-SUFFIX,browserleaks.net
