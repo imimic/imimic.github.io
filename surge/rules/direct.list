@@ -22,6 +22,3 @@ DOMAIN-SUFFIX,sankuai.com
 # > Media
 DOMAIN-SUFFIX,dangsfly.com
 DOMAIN-SUFFIX,keeflys.com
-# > Tailscale
-DOMAIN-SUFFIX,tailscale.com
-DOMAIN-SUFFIX,tailscale.io
