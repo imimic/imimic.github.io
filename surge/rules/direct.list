@@ -9,6 +9,9 @@ DOMAIN-SUFFIX,tencentyun.com
 DOMAIN-SUFFIX,letsencrypt.org
 DOMAIN-SUFFIX,quickconnect.cn
 DOMAIN-SUFFIX,quickconnect.to
+# > Tailscale
+DOMAIN-SUFFIX,tailscale.com
+DOMAIN-SUFFIX,tailscale.io
 # China
 DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,dianping.com
