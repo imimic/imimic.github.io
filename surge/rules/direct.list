@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,quickconnect.to
 DOMAIN-SUFFIX,tailscale.com
 DOMAIN-SUFFIX,tailscale.io
 # China
+DOMAIN-SUFFIX,CN
 DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,jddebug.com
