@@ -6,7 +6,9 @@ DOMAIN,testflight.apple.com
 # > Tailscale
 DOMAIN-SUFFIX,tailscale.com
 DOMAIN-SUFFIX,tailscale.io
+DOMAIN-SUFFIX,ts.net
 # > DNS Leak
+DOMAIN-SUFFIX,bash.ws
 DOMAIN-SUFFIX,browserleaks.com
 DOMAIN-SUFFIX,browserleaks.net
 DOMAIN-SUFFIX,browserleaks.org
