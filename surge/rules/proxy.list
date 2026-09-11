@@ -3,6 +3,9 @@ DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,112788.xyz
 DOMAIN-SUFFIX,omimic.com
 DOMAIN,testflight.apple.com
+# > Tailscale
+DOMAIN-SUFFIX,tailscale.com
+DOMAIN-SUFFIX,tailscale.io
 # > DNS Leak
 DOMAIN-SUFFIX,browserleaks.com
 DOMAIN-SUFFIX,browserleaks.net
@@ -10,9 +13,11 @@ DOMAIN-SUFFIX,browserleaks.org
 DOMAIN-SUFFIX,dnsleak.com
 DOMAIN-SUFFIX,dnsleaktest.com
 DOMAIN-SUFFIX,expressvpn.com
+DOMAIN-SUFFIX,fastly.com
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,ipcheck.ing
 DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,myipstack.com
 DOMAIN-SUFFIX,net.coffee
 DOMAIN-SUFFIX,nordvpn.com
 DOMAIN-SUFFIX,perfect-privacy.com
