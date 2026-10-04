@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-SUFFIX,bitmovin.com
 DOMAIN-SUFFIX,formula1.com
 # > UHD Emby
+DOMAIN-SUFFIX,uhdgo.com
 DOMAIN-SUFFIX,uhdnow.com
 # > Netflix
 DOMAIN,e13252.dscg.akamaiedge.net
