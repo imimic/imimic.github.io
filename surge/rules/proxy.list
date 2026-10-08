@@ -29,11 +29,13 @@ DOMAIN-SUFFIX,vpnunlimited.com
 DOMAIN-SUFFIX,wher.net
 DOMAIN-SUFFIX,whrq.net
 # > Apple Intelligence
-DOMAIN,apple-relay.akamaized.net
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,cp4.cloudflare.com
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
-DOMAIN,apple-relay.mask.apple-dns.net
+DOMAIN,gspe1-ssl.ls.apple.com
 # > Anthropic
 DOMAIN,anthropic.com.cdn.cloudflare.net
 DOMAIN,anthropic.auth0.com
