@@ -1,6 +1,7 @@
 # > Direct
 DEST-PORT,5201
 DOMAIN,v4.plex.tv
+DOMAIN-KEYWORD,cnlogs
 DOMAIN-KEYWORD,synology
 DOMAIN-SUFFIX,assrt.net
 DOMAIN-SUFFIX,zimuku.org
@@ -10,6 +11,7 @@ DOMAIN-SUFFIX,letsencrypt.org
 DOMAIN-SUFFIX,quickconnect.cn
 DOMAIN-SUFFIX,quickconnect.to
 # China
+DOMAIN,cn.mqtt.bambulab.com
 DOMAIN-SUFFIX,CN
 DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,dianping.com
