@@ -1,10 +1,11 @@
 # > Services
+DOMAIN,api.bambulab.com
+DOMAIN,makerworld.bblmw.com
+DOMAIN,makerworld.com
+DOMAIN,testflight.apple.com
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,112788.xyz
 DOMAIN-SUFFIX,omimic.com
-DOMAIN,testflight.apple.com
-DOMAIN,makerworld.bblmw.com
-DOMAIN,makerworld.com
 # > Tailscale
 DOMAIN-SUFFIX,tailscale.com
 DOMAIN-SUFFIX,tailscale.io
