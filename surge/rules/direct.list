@@ -27,6 +27,7 @@ DOMAIN-SUFFIX,meituan.net
 DOMAIN-SUFFIX,mtyun.com
 DOMAIN-SUFFIX,neixin.cn
 DOMAIN-SUFFIX,sankuai.com
+IP-CIDR,119.28.28.0/24,no-resolve
 # > Media
 DOMAIN-SUFFIX,xdrig.com
 DOMAIN-SUFFIX,keeflys.com
