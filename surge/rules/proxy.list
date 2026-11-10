@@ -32,6 +32,10 @@ DOMAIN-SUFFIX,wher.net
 DOMAIN-SUFFIX,whrq.net
 # > Apple Intelligence
 DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-t.apple-dns.net
+DOMAIN,mask.apple-dns.net
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
