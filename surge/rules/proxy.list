@@ -58,10 +58,12 @@ DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,frompersona.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,withpersona.com
 DOMAIN-KEYWORD,datadog
 DOMAIN-KEYWORD,sift
 IP-CIDR,160.79.104.0/21,no-resolve
